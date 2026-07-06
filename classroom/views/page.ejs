@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page</title>
+</head>
+<body>
+
+  <% if (successMsg.length) { %>
+    <p style="color: green;"><%= successMsg %></p>
+  <% } %>
+
+  <% if (errorMsg.length) { %>
+    <p style="color: red;"><%= errorMsg %></p>
+  <% } %>
+
+  <h1>Hello, <%= name %></h1>
+
+</body>
+</html>
